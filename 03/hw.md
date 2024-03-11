@@ -1,7 +1,7 @@
 ### Задание 1. Создать Deployment и обеспечить доступ к репликам приложения из другого Pod
 
 - не курлиться из пода multitool другие поды по имени nginx : curl: (6) Could not resolve host: nginx
-
+ 
 [deploy.yaml](deploy.yaml) 
 
 ![!\[Alt text\](<img/!\[Alt text\](<img/1.png>)>)](<img/1.png>)
