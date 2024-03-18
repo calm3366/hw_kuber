@@ -6,11 +6,11 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: / # подменяет запрос пользователя на "/"
     nginx.ingress.kubernetes.io/ssl-redirect: "false" # отменяет редирект на https
-    nginx.ingress.kubernetes.io/ingress.class: public
+    # nginx.ingress.kubernetes.io/ingress.class: public
 spec:
   ingressClassName: nginx
   rules:
-    - host: example.com
+    - host: 
       http:
         paths:
           - pathType: Prefix
@@ -28,7 +28,7 @@ spec:
                   number: 80
             path: /api
   # This section is only required if TLS is to be enabled for the Ingress
-  tls:
-    - hosts:
-      - example.com
-      secretName: tls-secret
+  # tls:
+  #   - hosts:
+  #     - example.com
+  #     secretName: tls-secret
