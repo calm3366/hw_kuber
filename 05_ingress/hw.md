@@ -16,13 +16,6 @@
 ![!\[Alt text\](<img/!\[Alt text\](<img/2.png>)>)](<img/2.png>)
 
 
-После добавления 
-
-`nginx.ingress.kubernetes.io/ingress.class: public `
-
-в annotations:
-
-![!\[Alt text\](<img/!\[Alt text\](<img/3.png>)>)](<img/3.png>)
 
 
 
