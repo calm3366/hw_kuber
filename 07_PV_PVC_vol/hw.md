@@ -1,8 +1,8 @@
 ## «Хранение в K8s. Часть 2»
 ### Задание 1. 
-[deploy.yaml](deploy.yaml) 
+[deploy-local.yaml](deploy-local.yaml) 
 
-[local-pv.yaml](local-pv.yaml) 
+[hostpath-pv.yaml](hostpath-pv.yaml) 
 
 [local-pvc.yaml](local-pvc.yaml) 
 
@@ -21,6 +21,10 @@ PV сохраняется, т.к. не зависит от удаления PVC
 ![!\[Alt text\](<img/!\[Alt text\](<img/4.png>)>)](<img/4.png>)
 
 ### Задание 2. 
+[deploy.yaml](deploy.yaml) 
+
+[pvc-nfs.yaml](pvc-nfs.yaml) 
+
 
 Чтение и запись изнутри контейнера работает при монтировании PV из NFS сервера внутри кластера:
 
